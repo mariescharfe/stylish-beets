@@ -16,6 +16,7 @@ a:hover {
 
 .sansserif {
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }
 
 .blacklinks {
@@ -30,6 +31,7 @@ h1 {
 h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }
 
 .test {
