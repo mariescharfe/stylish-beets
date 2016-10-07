@@ -1,7 +1,7 @@
 html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  line-height: normal;
 }
 
 a {
@@ -16,7 +16,6 @@ a:hover {
 
 .sansserif {
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
 }
 
 .blacklinks {
@@ -31,17 +30,17 @@ h1 {
 h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
 }
 
 .test {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
+  font-weight: normal;
 }
 
 blockquote cite {
@@ -54,6 +53,8 @@ img {
 
 .none {
   list-style-type: none;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .lowergreek {
@@ -66,4 +67,14 @@ img {
 
 dt {
   font-weight: bold;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.wikipedia {
+  font-size: 0.8rem;
 }
