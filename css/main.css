@@ -9,13 +9,9 @@ a {
   text-decoration: none;
 }
 
-.sansserif:hover {
+a:hover {
   color: #3f1622;
   text-decoration: underline;
-}
-
-.wikipedia:hover {
-  color: #3f1622;
 }
 
 .sansserif {
@@ -52,4 +48,20 @@ blockquote cite {
 
 img {
   width: 100%;
+}
+
+.none {
+  list-style-type: none;
+}
+
+.lowergreek {
+  list-style-type: lower-greek;
+}
+
+.bullets {
+  list-style-type: circle;
+}
+
+dt {
+  font-weight: bold;
 }
